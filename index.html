@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="shortcut icon" type="imagex/png" href="img/download.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUT ARENA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-black text-white sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <img style="width: 85px;" src="img/download.png" alt="">
+            </div>
+            
+            <nav class="hidden md:flex space-x-6">
+                <a href="#home" class="text-white hover:text-[#FFFF00] transition">Início</a>
+                <a href="#about" class="text-white hover:text-[#FFFF00] transition">Sobre</a>
+                <a href="#schedule" class="text-white hover:text-[#FFFF00] transition">Horários</a>
+                <a href="#contact" class="text-white hover:text-[#FFFF00] transition">Contato</a>
+            </nav>
+            
+            <a href="https://wa.me/5515991873564" 
+               target="_blank" 
+               class="bg-[#FFFF00] hover:bg-[#FFFF00] text-black font-bold px-4 py-2 rounded-md transition flex items-center space-x-2 pulse">
+                <i class="fab fa-whatsapp"></i>
+                <span>Agendar</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="bg-white py-20 md:py-28">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6 text-black">
+                <span class="text-[#FFFF00]">JOGUE FUTEBOL</span> NO MELHOR CAMPO!
+            </h1>
+            <p class="text-gray-600 mb-8 max-w-2xl mx-auto">
+                Agende seu horário e chame os amigos para uma pelada incrível!
+            </p>
+            
+            <a href="https://wa.me/5515991873564" 
+               target="_blank" 
+               class="inline-flex items-center bg-[#FFFF00] hover:bg-[#FFFF00] text-black font-bold px-8 py-4 rounded-lg transition pulse">
+                <i class="fab fa-whatsapp mr-2 text-xl"></i>
+                AGENDAR VIA WHATSAPP
+            </a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+                <div class="w-full md:w-1/2 px-4">
+                    <div class="glider-contain relative mx-auto max-w-lg">
+                        <div class="glider">
+                            <div class="glider-slide">
+                                <img src="img/foto1.png" 
+                                    alt="Campo da FutArena" 
+                                    class="carousel-image">
+                            </div>
+                            <div class="glider-slide">
+                                <img src="img/foto2.png" 
+                                    alt="Vista aérea do campo" 
+                                    class="carousel-image">
+                            </div>
+                            <div class="glider-slide">
+                                <img src="img/foto3.png"
+                                    alt="Partida no campo" 
+                                    class="carousel-image">
+                            </div>
+                            <div class="glider-slide">
+                                <img src="img/foto4.png" 
+                                    alt="Iluminação noturna" 
+                                    class="carousel-image">
+                            </div>
+                        </div>
+                        <div class="glider-dots"></div>
+                    </div>
+                </div>
+                
+                <div class="w-full md:w-1/2 px-4 mt-8 md:mt-0">
+                    <h2 class="text-3xl font-bold mb-6 text-[#FFFF00]">SOBRE O FUTARENA</h2>
+                    <p class="text-gray-600 mb-6">
+                        O melhor campo society da região, com gramado sintético de alta performance e iluminação profissional.
+                    </p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <div class="w-8 h-8 bg-[#FFFF00] rounded-full flex items-center justify-center mr-3">
+                                <i class="fas fa-check text-black text-sm"></i>
+                            </div>
+                            <span class="text-black">Gramado sintético premium</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-8 h-8 bg-[#FFFF00] rounded-full flex items-center justify-center mr-3">
+                                <i class="fas fa-check text-black text-sm"></i>
+                            </div>
+                            <span class="text-black">Iluminação profissional</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-8 h-8 bg-[#FFFF00] rounded-full flex items-center justify-center mr-3">
+                                <i class="fas fa-check text-black text-sm"></i>
+                            </div>
+                            <span class="text-black">Vestiários completos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule -->
+    <section id="schedule" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-[#FFFF00] mb-2">HORÁRIOS</h2>
+                <p class="text-gray-600">Confira quando estamos abertos</p>
+            </div>
+            
+            <div class="max-w-md mx-auto bg-gray-50 rounded-xl shadow-lg border border-[#000] p-6">
+                <div class="space-y-4">
+                    <div class="flex justify-between items-center pb-3 border-b border-gray-200">
+                        <span class="font-semibold text-[#000]">Segunda a Sexta</span>
+                        <span class="text-black">17h às 22h</span>
+                    </div>
+                    <div class="flex justify-between items-center pb-3 border-b border-gray-200">
+                        <span class="font-semibold text-[#000]">Sábado</span>
+                        <span class="text-black">8h às 22h</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="font-semibold text-[#000]">Domingo</span>
+                        <span class="text-black">8h às 12h</span>
+                    </div>
+                </div>
+                
+                <div class="mt-8 bg-[#FFFF00] bg-opacity-10 border rounded-lg p-4">
+                    <h3 class="font-bold text-[#000] mb-2">VALOR POR HORA:</h3>
+                    <p class="text-2xl font-bold text-black">R$ 100,00</p>
+                </div>
+                
+                <a href="https://wa.me/5515991873564" 
+                   class="w-full bg-[#FFFF00] hover:bg-[#FFFF00] text-black font-bold py-3 px-4 rounded-lg transition mt-6 flex items-center justify-center">
+                    <i class="fab fa-whatsapp mr-2"></i> AGENDAR AGORA
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-[#FFFF00] mb-2">CONTATO</h2>
+                    <p class="text-gray-600">Fale conosco e reserve seu horário</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <div class="space-y-6">
+                            <div class="flex items-start space-x-4">
+                                <div class="w-10 h-10 bg-[#FFFF00] rounded-full flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-phone-alt text-black"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-black">WhatsApp</h3>
+                                    <p class="text-gray-600">(15) 99187-3564</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-4">
+                                <div class="w-10 h-10 bg-[#FFFF00] rounded-full flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-map-marker-alt text-black"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-black">Endereço</h3>
+                                    <p class="text-gray-600">R. Antônio Nery, 131, Tietê - SP, 18530-000</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8">
+                            <h3 class="font-bold text-black mb-3">REDES SOCIAIS</h3>
+                            <div class="flex space-x-4">
+                                <a href="https://www.instagram.com/futarenatiete/" class="w-10 h-10 bg-[#FFFF00] hover:bg-[#FFFF00] text-black rounded-full flex items-center justify-center transition">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 bg-[#FFFF00] hover:bg-[#FFFF00] text-black rounded-full flex items-center justify-center transition">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl overflow-hidden border border-[#FFFF00]">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.238676035253!2d-47.72012892476083!3d-23.10774987894216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5c9c7aecf5d0d%3A0x1e1a926f8a0f8b3a!2sR.%20Ant%C3%B4nio%20Nery%2C%20131%20-%20Centro%2C%20Tiet%C3%AA%20-%20SP%2C%2018530-000!5e0!3m2!1spt-BR!2sbr!4v1690839477721!5m2!1spt-BR!2sbr"
+                                width="100%" 
+                                height="100%" 
+                                style="min-height: 300px;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                class="border-0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-8 border-t border-[#FFFF00]">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <div class="flex items-center space-x-2">
+                       <img style="width: 100px;" src="img/download.png" alt="">
+                    </div>
+                </div>
+                
+                <div class="text-gray-400 text-sm text-center md:text-right">
+                    <p>© 2025 FutArena. Todos os direitos reservados.</p>
+                    <p class="mt-1">(15) 99187-3564 | R. Antônio Nery, 131, Tietê - SP</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/5515991873564" 
+       target="_blank" 
+       class="fixed bottom-6 right-6 w-14 h-14 bg-[#FFFF00] hover:bg-[#FFFF00] text-black rounded-full flex items-center justify-center shadow-xl transition z-50 floating">
+        <i class="fab fa-whatsapp text-2xl"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html> 
